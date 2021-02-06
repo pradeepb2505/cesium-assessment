@@ -1,0 +1,2 @@
+CREATE DATABASE materials_management;
+CREATE TABLE materials (id serial PRIMARY KEY NOT NULL, name varchar(255), color varchar(255) DEFAULT 'rgb(74,125,62)', volume INTEGER, cost NUMERIC(1000, 2), delivery_date date);
