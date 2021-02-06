@@ -1,0 +1,14 @@
+## Steps to run 
+- Install Docker, pull the image and run using the following commands in a terminal
+    - docker pull pradeepb2505/cesium-postgres:1
+    - docker run --env PGDATA=postgres -p 5432:5432 pradeepb2505/cesium-postgres:1
+- Install node version >= 12.13.0
+- Open a new terminal and clone the repository
+    - git clone https://github.com/pradeepb2505/cesium-assessment.git
+- Open a new terminal in materialsManagementApi folder. The following command runs the server in port 8000
+    - npm i
+    - npm start
+- Open a new terminal in materialsManagementFrontend folder. This runs the frontend in port 8080
+    - npm i
+    - npm start
+- Open http://localhost:8080 to access the web application

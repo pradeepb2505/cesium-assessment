@@ -15,7 +15,7 @@ class MaterialsModel {
   async addMaterial(data) {
     const material = [
       data.name,
-      data.color || "rgb(123,123,123)",
+      data.color || "#ffebee",
       data.volume || 0,
       data.cost || 0.0,
       data.delivery_date,

@@ -10,7 +10,7 @@ const initialState = {
   activeMaterial: {
     id: null,
     name: null,
-    color: null,
+    color: "#ffebee",
     volume: null,
     delivery_date: null,
   },
