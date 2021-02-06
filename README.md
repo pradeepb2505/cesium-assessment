@@ -12,3 +12,5 @@
     - npm i
     - npm start
 - Open http://localhost:8080 to access the web application
+- Run the tests using following command in materialsManagementApi folder
+    - npm test

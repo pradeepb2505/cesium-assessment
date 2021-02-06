@@ -4,7 +4,7 @@
   "description": "Materials Management API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec --exit",
+    "test": "nyc mocha --exit",
     "start": "nodemon server.js",
     "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
   },
@@ -26,6 +26,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
     "pg": "^8.5.1",
     "prettier": "^2.2.1",
     "request": "^2.88.2"
