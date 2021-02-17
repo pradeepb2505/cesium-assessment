@@ -1,7 +1,6 @@
 {
   "name": "pwa-conf-app",
   "version": "1.0.0",
-  "description": "This is a PWA tutorial app. You can find the tutorial on the [Vaadin website](https://vaadin.com/progressive-web-applications).",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
@@ -17,7 +16,6 @@
     "url": "git+https://github.com/vaadin-learning-center/lit-element-tutorial-02-templating-properties-and-events.git"
   },
   "keywords": [],
-  "author": "Marcus Hellberg <marcus@vaadin.com>",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/vaadin-learning-center/lit-element-tutorial-02-templating-properties-and-events/issues"
